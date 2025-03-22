@@ -1,0 +1,382 @@
+/* Heading Section */
+
+@media screen and (max-width: 1440px) {
+    .nav-logo img {
+        margin-left: 15px;
+    }
+
+    .hero-heading h1 {
+        font-size: 65px;
+        margin-left: 15px;
+    }
+
+    /* 2nd Section */
+    .section2-content {
+        margin: 15px;
+    }
+
+    /* 3rd Section */
+
+    .section3-content {
+        margin: 15px;
+    }
+
+    .boxes {
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    .box {
+        width: 48%;
+        height: 420px;
+    }
+
+    /* Services Section */
+    .services-content {
+        margin: 15px;
+    }
+
+    /* Portfolio Section */
+    .contact-container {
+        margin: 15px;
+    }
+
+    /* Footer Section */
+    
+}
+
+@media screen and (max-width: 1025px) {
+    .button-container button {
+        margin-top: 0px !important;
+    }
+
+    .section3-content {
+        flex-direction: column;
+    }
+    .section3-left {
+        width: 100% !important;
+    }
+
+    .section3-right {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .nav-logo img {
+       width: 150px;
+       height: 40px;
+    }
+    
+    .nav-menu ul li {
+        padding: 10px 10px;
+        font-size: 16px; 
+    }
+
+    .hero-heading h1 {
+        font-size: 55px;
+        margin-left: 15px;
+    }
+    
+    /*2nd Section*/
+
+    .section2-main p {
+        line-height: 1.2em;
+    }
+
+    /* 3rd Section */
+    /* .boxes {
+        justify-content: space-around;
+        padding: 0;
+    } */
+
+    .box {
+        width: 40%;
+        height: 250px;
+    }
+
+    .box h1 {
+        font-size: 20px;
+    }
+
+    /* Services Section */
+
+    .services-content {
+        flex-direction: column;
+    }
+
+    .services-left {
+        width: 100%;
+    }
+
+    .services-right {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    /* Reviews Section */
+    .testimonials {
+        flex-direction: column;
+    }
+
+    .quote {
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    .ftr-nav {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .nav-menu {
+        display: none;
+    }
+    
+    /* .nav-logo img {
+        width: 150px;
+        height: 40px;
+    }
+     
+    .nav-menu ul li {
+        padding: 10px 10px;
+        font-size: 16px; 
+    }*/
+ 
+    .hero-heading h1 {
+        font-size: 35px;
+        margin-left: 15px;
+    }
+    
+    /* 2nd Section */
+    .section2-main p {
+        line-height: 1.1em;
+        font-size: 18px;
+    }
+
+    .button-container button {
+        font-size: 18px;
+    }
+
+    /* 3rd Section */
+    .section3-left h2 {
+        font-size: 35px;
+    }
+
+    .section3-left h3 {
+        font-size: 25px;
+    }
+
+    .section3-left p {
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    .box {
+        width: 100%;
+        height: 250px;
+    }
+
+    /*Services Section */
+
+   .services-section {
+    padding-top: 0;
+   }
+
+    .services-left {
+        width: 100%;
+    }
+
+    /* .services-right {
+        width: 100%;
+        margin-left: 0px;
+    } */
+
+    /* Portfolio Section */
+    .port-nav {
+        padding: 0;
+        justify-content: space-around;
+    }
+
+    .portfolio-images {
+        flex-direction: column;
+    }
+
+    .port-img {
+        width: 100%;
+        margin: 10px 0;   
+    }
+
+    /* .port-img img {
+        width: 100%;
+    } */
+    /* .port-nav h2 {
+        font-size: 35px;
+    } */
+
+
+    /* Footer Section */
+    .footer-parent {
+        height: 700px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-left {
+        width: 100%;
+    }
+
+    .footer-right {
+        width: 100%;
+    }
+
+    .end-content {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    
+    .signature {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ftr-nav {
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    /* .ftr-nav ul {
+        flex-direction: column;
+    } */
+
+}
+
+@media screen and (max-width: 375px) {
+    /* 2nd Section */
+    .section2-main p {
+        line-height: 1em;
+    }
+
+
+    /* 3rd Section */
+    .section3-left h2 {
+        font-size: 33px;
+    }
+    
+    /* Services Section */
+        .services span {
+            font-size: 25px;
+        }
+
+    /* Reviews Section */
+    
+    .rev-nav {
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .rev-nav h2 {        
+        font-size: 33px;
+    }
+
+    /* Portfolio Section */ 
+    .port-nav {
+        justify-content: space-between;
+    }
+
+    .port-nav h2 {        
+        font-size: 33px;
+    }
+
+    /* Footer Section */ 
+    .ftr-nav {
+        font-size: 12px;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* 2nd Section */
+    .section2-main p {
+        margin-bottom: 10px;
+    }
+
+    .button-container button {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+
+    /* 3rd Section */
+
+    .section3-left h2 {
+        font-size: 25px;
+    }
+
+    .section3-left h3 {
+        font-size: 20px;
+    }
+    
+    .section3-left p {
+        font-size: 16px;
+    }
+
+    /* Services Section */
+    .services span {
+        font-size: 20px;
+    }
+
+    .services-btn button {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+
+    /* Reviews Section */
+    .rev-nav h2 {        
+        font-size: 30px;
+    }
+
+    .icon-btns button {
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+    }
+
+    /* Portfolio Section */
+    .port-nav h2 {        
+        font-size: 30px;
+    }
+
+    .contact-container button {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+
+    /* Footer Section */ 
+    .footer-left p {
+        font-size: 20px;
+    }
+
+    .end-content {
+        flex-direction: row;
+        /* padding: 20px 20px; */
+    }
+
+    .ftr-nav {
+        width: 50%;
+        margin-top: 0px;
+    }
+
+    .signature {
+        width: 50%;
+        padding-top: 20px;
+    }
+    .ftr-nav ul {
+        flex-direction: column;
+        font-size: 15px;
+    }
+}
