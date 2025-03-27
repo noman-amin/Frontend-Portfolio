@@ -1,6 +1,13 @@
-/* Heading Section */
-
 @media screen and (max-width: 1440px) {
+    /* Heading Section */
+    .hero-parent {
+        height: auto;
+    }
+
+    .nav-bar {
+        padding-left: 20px;
+    }
+    
     .nav-logo img {
         margin-left: 15px;
     }
@@ -8,11 +15,21 @@
     .hero-heading h1 {
         font-size: 65px;
         margin-left: 15px;
+        padding-left: 20px;
     }
 
     /* 2nd Section */
+    .section-2 {
+        margin-top: 200px;
+    }
+
     .section2-content {
         margin: 15px;
+    }
+
+    .section2-main p {
+        width: 100%;
+        margin-right: 20px;
     }
 
     /* 3rd Section */
@@ -42,10 +59,22 @@
     }
 
     /* Footer Section */
+    .footer-left {
+        padding-left: 30px;
+    }
     
 }
 
 @media screen and (max-width: 1025px) {
+    /* Hero Section */
+    .hero-heading {
+        margin-top: 50px;
+    }
+    
+    .section-2 {
+        margin-top: 50px;
+    }
+
     .button-container button {
         margin-top: 0px !important;
     }
@@ -79,17 +108,18 @@
     }
     
     /*2nd Section*/
+    .section-2 {
+        margin: 0;
+    }
+    .section2-main{
+        margin: 0;
+    }
 
     .section2-main p {
         line-height: 1.2em;
     }
 
     /* 3rd Section */
-    /* .boxes {
-        justify-content: space-around;
-        padding: 0;
-    } */
-
     .box {
         width: 40%;
         height: 250px;
@@ -100,7 +130,6 @@
     }
 
     /* Services Section */
-
     .services-content {
         flex-direction: column;
     }
@@ -129,27 +158,33 @@
     }
 }
 
+
+@media screen and (max-width:768px) {
+    .section-2 {
+        margin-top: -50px;
+    }
+    
+}
+
 @media screen and (max-width: 425px) {
     .nav-menu {
         display: none;
     }
-    
-    /* .nav-logo img {
-        width: 150px;
-        height: 40px;
+
+    .hero-heading {
+        margin-top: -200px;
     }
      
-    .nav-menu ul li {
-        padding: 10px 10px;
-        font-size: 16px; 
-    }*/
- 
     .hero-heading h1 {
-        font-size: 35px;
+        font-size: 25px;
         margin-left: 15px;
     }
     
     /* 2nd Section */
+    .section-2 {
+        margin-top: 40px;
+    }
+    
     .section2-main p {
         line-height: 1.1em;
         font-size: 18px;
@@ -178,6 +213,11 @@
         height: 250px;
     }
 
+    /* Recviews Section */
+    .rev-nav h2 {
+        font-size: 35px;
+    }
+
     /*Services Section */
 
    .services-section {
@@ -187,11 +227,6 @@
     .services-left {
         width: 100%;
     }
-
-    /* .services-right {
-        width: 100%;
-        margin-left: 0px;
-    } */
 
     /* Portfolio Section */
     .port-nav {
@@ -207,14 +242,10 @@
         width: 100%;
         margin: 10px 0;   
     }
-
-    /* .port-img img {
-        width: 100%;
-    } */
-    /* .port-nav h2 {
+    
+    .port-nav h2 {
         font-size: 35px;
-    } */
-
+    }
 
     /* Footer Section */
     .footer-parent {
@@ -250,9 +281,6 @@
         margin-top: 30px;
     }
     
-    /* .ftr-nav ul {
-        flex-direction: column;
-    } */
 
 }
 
@@ -281,7 +309,7 @@
     }
 
     .rev-nav h2 {        
-        font-size: 33px;
+        font-size: 30px;
     }
 
     /* Portfolio Section */ 
@@ -290,7 +318,7 @@
     }
 
     .port-nav h2 {        
-        font-size: 33px;
+        font-size: 30px;
     }
 
     /* Footer Section */ 
@@ -300,8 +328,12 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (width: 320px) {
     /* 2nd Section */
+    .hero-heading h1 {
+        font-size: 20px;
+    }
+    
     .section2-main p {
         margin-bottom: 10px;
     }
@@ -312,7 +344,6 @@
     }
 
     /* 3rd Section */
-
     .section3-left h2 {
         font-size: 25px;
     }
@@ -337,7 +368,7 @@
 
     /* Reviews Section */
     .rev-nav h2 {        
-        font-size: 30px;
+        font-size: 26px;
     }
 
     .icon-btns button {
@@ -348,7 +379,7 @@
 
     /* Portfolio Section */
     .port-nav h2 {        
-        font-size: 30px;
+        font-size: 26px;
     }
 
     .contact-container button {
@@ -358,7 +389,8 @@
 
     /* Footer Section */ 
     .footer-left p {
-        font-size: 20px;
+        font-size: 18px;
+        width: 100%;
     }
 
     .end-content {
